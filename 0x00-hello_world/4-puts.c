@@ -2,7 +2,7 @@
 /**
 *main - Entry point 
 *Description: 'outpus a sentence with puts'
-*Return: Always 0 (Success)
+*Return: Always 0(Success)
 **/
 int main(void)
 {
