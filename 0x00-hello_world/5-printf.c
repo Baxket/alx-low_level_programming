@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
 * main - Entry point
 * Description: 'print a sentence with printf'
 * Return: Always 0 (Success)
