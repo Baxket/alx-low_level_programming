@@ -7,6 +7,6 @@
 int main(void)
 {
 char st[] = "2015-10-19";
-fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, %s", st);
+fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, %s\n", st);
 return (1);
 }
