@@ -6,16 +6,10 @@
 */
 int main(void)
 {
-char n = 'a';
-while (n <= 'z')
+int n;
+for (n = 0 ; n < 10 ; n++)
 {
-if (n == 'q' || n == 'e')
-{
-n++;
-continue;
-}
-putchar(n);
-n++;
+putchar(48 + n);
 }
 putchar('\n');
 return (0);
