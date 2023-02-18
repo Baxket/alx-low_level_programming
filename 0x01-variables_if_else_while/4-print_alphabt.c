@@ -11,6 +11,7 @@ while (n <= 'z')
 {
 if (n == 'q' || n == 'e')
 {
+n++;
 continue;
 }
 putchar(n);
