@@ -10,7 +10,7 @@ int n;
 int j;
 for (n = 0 ; n < 10 ; n++)
 {
-while (j < 10)
+for (j = n+1 ; j < 10 ; j++)
 {
 if (n != j)
 {
