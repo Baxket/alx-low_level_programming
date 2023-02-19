@@ -15,7 +15,7 @@ if (n != j)
 {
 putchar(48 + n);
 putchar(48 + j);
-if (j < 10)
+if (n < 8)
 {
 putchar(',');
 putchar(' ');
