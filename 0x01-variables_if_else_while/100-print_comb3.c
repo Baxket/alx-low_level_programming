@@ -11,7 +11,7 @@ for (n = 0 ; n < 10 ; n++)
 {
 for (j = 0 ; j < 10 ; j++)
 {
-if (i != j)
+if (n != j)
 {
 putchar(48 + n);
 putchar(48 + j);
