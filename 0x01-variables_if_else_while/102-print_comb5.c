@@ -6,26 +6,21 @@
 */
 int main(void)
 {
-int i, k, p, q;
-for (p = 0; p < 10; p++)
+int j, k;
+for (j = 0; j <= 98; j++)
 {
-for (q = 0; q < 10; q++)
+for (k = j + 1; k <= 99; k++)
 {
-for(i = 0 ; i < 10 ; i++)
-{
-for(k = q + 1 ; k < 10 ; k++)
-{
-putchar(48 + p);
-putchar(48 + q);
+putchar((j / 10) + '0');
+putchar((j % 10) + '0');
 putchar(' ');
-putchar(48 + i);
-putchar(48 + k);
+putchar((k / 10) + '0');
+putchar((k % 10) + '0');
+if (j == 98 && k == 99)
+continue;
 putchar(',');
 putchar(' ');
 }
 }
-}
-}
-putchar('\n');
 return (0);
 }
