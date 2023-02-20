@@ -11,7 +11,7 @@ for (n = 0 ; n < 10 ; n++)
 {
 for (j = n + 1 ; j < 10 ; j++)
 {
-for (k = n + 2 ; k < 10 ; k++)
+for (k = j + 1 ; k < 10 ; k++)
 {
 if (n != j && n != k)
 {
@@ -26,7 +26,6 @@ putchar(' ');
 }
 }
 }
-j++;
 }
 putchar('\n');
 return (0);
