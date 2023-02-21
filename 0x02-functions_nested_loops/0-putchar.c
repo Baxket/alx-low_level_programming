@@ -1,4 +1,5 @@
 #include "main.h"
+#include <studio.h>
 /**
 * main - check the code
 *
@@ -6,16 +7,14 @@
 */
 int main(void)
 {
-char message[] = "_putchar";
-for (int count = 0; sizeof(message) ;count++)
-{
-if (message[count] == '\0')
-{
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
 putchar('\n');
-break;
-}
-else
-putchar(message[count]);
-}
 return (0);
 }
