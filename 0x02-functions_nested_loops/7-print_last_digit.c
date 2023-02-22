@@ -13,6 +13,6 @@ int last = -c % 10;
 _putchar('0' + last);
 return (last);
 }
-_putchar('0' + c);
+_putchar('0' + c % 10);
 return (c % 10);
 }
