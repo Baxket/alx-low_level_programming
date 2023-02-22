@@ -7,6 +7,6 @@
 */
 int print_last_digit(int c)
 {
-_putchar(c + '0');
+_putchar(48 + c);
 return (c % 10);
 }
