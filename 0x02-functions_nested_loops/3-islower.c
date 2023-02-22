@@ -4,9 +4,9 @@
 *description: 'returns 0 or 1'
 *Return: 0 
 */
-int _islower(int c);
+int _islower(int c)
 {
-if(islower(c))
+if (islower(c))
 {
 return (1);
 }
