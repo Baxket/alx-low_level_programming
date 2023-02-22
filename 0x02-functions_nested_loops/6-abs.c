@@ -13,4 +13,3 @@ return (c);
 }
 return (-c);
 }
-~
