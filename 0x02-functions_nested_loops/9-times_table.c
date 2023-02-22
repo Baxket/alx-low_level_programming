@@ -16,15 +16,21 @@ if (ans / 10)
 {
 _putchar('0' + ans / 10);
 _putchar('0' + ans % 10);
-}
-else
-{
-_putchar('0' + ans);
-}
 if (b < 9)
 {
 _putchar(',');
 _putchar(' ');
+}
+}
+else
+{
+_putchar('0' + ans);
+if (b < 9)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+}
 }
 }
 _putchar('\n');
