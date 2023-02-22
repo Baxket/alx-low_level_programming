@@ -14,19 +14,19 @@ for (b = 1 ; b <= 10 ; b++)
 int ans = a * b;
 if (ans / 10)
 {
-putchar('0' + ans / 10);
-putchar('0' + ans % 10);
+_putchar('0' + ans / 10);
+_putchar('0' + ans % 10);
 }
 else
 {
-putchar('0' + ans);
+_putchar('0' + ans);
 }
 if (b < 10)
 {
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
