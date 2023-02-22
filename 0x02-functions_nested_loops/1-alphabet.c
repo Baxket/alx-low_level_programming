@@ -6,6 +6,6 @@
 */
 int main(void)
 {
-_putchar('s');
+print_alphabet();
 return (0);
 }
