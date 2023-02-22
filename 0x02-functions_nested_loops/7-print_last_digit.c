@@ -7,6 +7,7 @@
 */
 int print_last_digit(int c)
 {
+int last;
 if (c < 0)
 {
 int last = _abs(c) % 10;
