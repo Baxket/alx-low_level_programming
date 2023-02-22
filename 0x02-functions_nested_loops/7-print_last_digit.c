@@ -11,11 +11,8 @@ if (c < 0)
 {
 int last = -c % 10;
 _putchar('0' + last);
+return (last);
 }
-else
-{
-int last = c % 10;
-_putchar('0' + last);
-}
+_putchar('0' + c);
 return (c % 10);
 }
