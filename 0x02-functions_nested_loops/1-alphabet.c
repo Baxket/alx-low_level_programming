@@ -5,7 +5,6 @@
 * Return: Always 0
 */
 int main(void)
-{
-print_alphabet();
+_putchar('s');
 return (0);
 }
