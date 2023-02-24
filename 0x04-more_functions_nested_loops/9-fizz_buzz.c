@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * main - Entry point
 * Description: 'print a sentence with printf'
@@ -29,7 +30,5 @@ if (a < 100)
 printf(" ");
 }
 printf("\n");
-
-
 return (0);
 }
