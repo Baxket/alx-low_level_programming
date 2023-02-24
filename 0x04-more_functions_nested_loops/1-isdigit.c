@@ -22,10 +22,6 @@ else if ((c % 10 >= 0 && c % 10 <= 9) || (c > '10')
 {
 return (0);
 }
-else
-{
-return (0);
-}
 }
 return (0);
 }
