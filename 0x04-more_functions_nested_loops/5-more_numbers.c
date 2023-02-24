@@ -22,6 +22,9 @@ for (a = 1; a <= 10; a++)
 			_putchar('0' + b);
 		}
 	}
-_putchar('\n');
+	if (a < 10)
+	{
+		_putchar('\n');
+	}
 }
 }
