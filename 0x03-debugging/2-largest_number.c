@@ -20,12 +20,8 @@ else if (c > a && c > b)
 {
 return (c);
 }
-else if (a == b && b == c)
+else 
 {
 return (a);
-}
-else
-{
-return (0);
 }
 }
