@@ -15,8 +15,10 @@ for (a = 0; a < size; a++)
 	{
 		_putchar('#');
 	}
-		_putchar(' ')
+		_putchar('\n');
 }
-	_putchar('\n');
-
+if(size <= 0)
+{
+_putchar('\n');
+}
 }
