@@ -20,8 +20,12 @@ else if (c > a && c > b)
 {
 return (c);
 }
+else if (a == b && a == c)
+{
+return (a);
+}
 else 
 {
-return (0);
+return (0)
 }
 }
