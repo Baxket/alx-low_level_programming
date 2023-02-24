@@ -26,6 +26,6 @@ return (a);
 }
 else
 {
-return (0);
+return (a);
 }
 }
