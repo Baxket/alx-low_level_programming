@@ -22,7 +22,7 @@ return (c);
 }
 else if (a == b && b == c)
 {
-return (a)
+return (a);
 }
 else
 {
