@@ -24,8 +24,8 @@ else if (a == b && a == c)
 {
 return (a);
 }
-else 
+else
 {
-return (0)
+return (0);
 }
 }
