@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * main - Entry point
 * Description: 'print a sentence with printf'
