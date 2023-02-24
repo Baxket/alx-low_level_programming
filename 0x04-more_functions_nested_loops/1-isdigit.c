@@ -14,7 +14,7 @@ return (1);
 }
 else if (c % 10 >= 0 && c % 10 <= 9)
 {
-return (0);
+return (-1);
 }
 return (0);
 }
