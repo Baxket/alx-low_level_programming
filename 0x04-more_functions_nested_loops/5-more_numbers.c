@@ -18,9 +18,6 @@ for (a = 1; a <= 10; a++)
 		}
 		_putchar('0' + b % 10);
 	}
-	if (a < 10)
-	{
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
 }
