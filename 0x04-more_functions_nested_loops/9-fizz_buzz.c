@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
 * main - Entry point
 * Description: 'print a sentence with printf'
@@ -10,32 +9,23 @@ int main(void)
 int a, b;
 for (a = 1; a <= 100; a++)
 {
-	if (a % 3 == 0)
-	{
-		_putchar('F');
-		_putchar('i');
-		_putchar('z');
-		_putchar('z');
-	}
-	else if (a % 5 == 0)
-	{
-		_putchar('B');
-		_putchar('u');
-		_putchar('z');
-		_putchar('z');
-	}
-	else
-	{
-		if (a / 10)
-		{
-			_putchar('0' + a / 10);
-		}
-		_putchar('0' + a % 10);
-	}
-	if (a < 100)
-		_putchar(' ');
+if (a % 3 == 0)
+{
+printf("Fizz");
 }
-_putchar('\n');
-
+else if (a % 5 == 0)
+{
+printf("Buzz");
+}
+else
+{
+if (a / 10)
+{
+printf("%d", a);
+}
+if (a < 100)
+printf(" ");
+}
+printf("\n");
 return (0);
 }
