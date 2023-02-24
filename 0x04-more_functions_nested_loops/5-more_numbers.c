@@ -15,12 +15,8 @@ for (a = 1; a <= 10; a++)
 		if (b / 10)
 		{
 			_putchar('0' + b / 10);
-			_putchar('0' + b % 10);
 		}
-		else
-		{
-			_putchar('0' + b);
-		}
+		_putchar('0' + b % 10);
 	}
 	if (a < 10)
 	{
