@@ -15,7 +15,10 @@ for (a = 0; a < n; a++)
 	_putchar('\n');
 	for (b = 0; b <= a; b++)
 	{
+		if (n > 0)
+		{
 		_putchar(' ');
+		}
 	}
 }
 _putchar('\n');
