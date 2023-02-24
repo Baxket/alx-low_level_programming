@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-*print_numbers - prints from 0 to 9
+*more_numbers - prints from 0 to 14 ten times
 *
-*Description: list natural numbers from 0 to 9
+*Description: list natural numbers from 0 to 14 ten times
 *Return: 0
 */
-void print_numbers(void)
+void more_numbers(void)
 {
 int a, b;
 for (a = 1; a <= 10; a++)
