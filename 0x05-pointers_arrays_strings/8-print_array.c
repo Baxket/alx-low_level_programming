@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*_strlen - a function
-*@s: it is a pointer
-*
-*Description: prints length of a string
+*print_array - a function
+*@a: it is a pointer, the array
+*@n: it is an integer, the length
+*Description: prints every index of an array
 *Return: 0
 */
 void print_array(int *a, int n)
