@@ -11,11 +11,11 @@ void print_rev(char *s)
 	char temp[1000];
 	int j, i = 0;
 
-	for (; *str;)
+	for (; *s;)
 	{
-		temp[i] = *str;
+		temp[i] = *s;
 		i++;
-		str++;
+		s++;
 	}
 	for (j = i - 1 ; j >= 0; j--)
 	{
