@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*_strlen - a function
+*rev_string - a function
 *@s: it is a pointer
 *
-*Description: prints length of a string
+*Description: it reverses a string
 *Return: 0
 */
 void rev_string(char *s)
