@@ -9,17 +9,17 @@
 */
 void print_array(int *a, int n)
 {
-	int c, x;
+	int c;
 
 	for (c = 0; c < n; c++)
 	{
-		if (x < n - 1)
+		if (c < n - 1)
 		{
-		printf("%d, ", a[x]);
+		printf("%d, ", a[c]);
 		}
 		else
 		{
-		printf("%d", a[x]);
+		printf("%d", a[c]);
 		}
 	}
 printf("\n");
