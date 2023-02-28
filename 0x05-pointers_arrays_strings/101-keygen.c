@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_strlen - a function
+*_atoi - a function
 *@s: it is a pointer
 *
 *Description: prints length of a string
