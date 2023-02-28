@@ -17,16 +17,14 @@ while (str[c] != '\0')
 if (c + 1 % 2 == 0)
 {
 	n = (c - 1) / 2;
-
 }
 else
 {
 	n = c / 2;
 }
-
-for (c = 0 ;c < n ; c++)
+for (j = n ; j < c ; j++)
 {
-	_putchar(str[c]);
+	_putchar(str[j]);
 }
 _putchar('\n');
 }
