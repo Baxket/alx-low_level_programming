@@ -22,7 +22,7 @@ else
 {
 	n = c / 2;
 }
-for (j = n ; j < c ; j++)
+for (j = n ; str[j] != '\0' ; j++)
 {
 	_putchar(str[j]);
 }
