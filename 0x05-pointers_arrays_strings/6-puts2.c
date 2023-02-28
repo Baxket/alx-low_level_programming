@@ -8,13 +8,11 @@
 */
 void puts2(char *str)
 {
-	for (; *str;)
+	for (c = 0; str[c] != '\0'; c++)
 	{
-		if (*str % 2 == 0)
-		{
-		_putchar(*str);
-		}
-		str++;
+	if (string % 2 == 0)
+	{
+		_putchar(str[c]);
 	}
-	_putchar('\n');
+		_putchar('\n');
 }
