@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*_strlen - a function
+*_atoi - a function
 *@s: it is a pointer
 *
-*Description: prints length of a string
+*Description: converts a string to an integer
 *Return: 0
 */
 int _atoi(char *s)
