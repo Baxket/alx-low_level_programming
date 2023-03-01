@@ -4,7 +4,7 @@
 *@dest: it is a pointer
 *@src: it is a pointer
 *@n:  it is an integer
-*Description: prints a string
+*Description: concatenates two strings
 *Return: 0
 */
 char *_strncat(char *dest, char *src, int n)
