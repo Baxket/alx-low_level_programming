@@ -17,10 +17,11 @@ void print_number(int n)
 	}
 	else
 	{
-		if (n / 10)
+		i = n;
+		if (i / 10)
 		{
-			_putchar('0' + n / 10);
+			_putchar('0' + i / 10);
 		}
-		_putchar('0' + n % 10);
+		_putchar('0' + i % 10);
 	}
 }
