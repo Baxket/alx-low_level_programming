@@ -8,10 +8,10 @@
 */
 void reverse_array(int *a, int n)
 {
-	int i, b;
+	int i;
 	char d;
 	
-	for (i = 0; i < n--; i++ )
+	for (i = 0; i < n--; i++)
 	{
 		d = a[i];
 		a[i] = a[n];
