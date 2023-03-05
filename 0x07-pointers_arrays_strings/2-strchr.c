@@ -4,11 +4,11 @@
 *@s: it is a pointer
 *@c: it is a character
 *Description: It locates a character in a string
-*Return: 0
+*Return: NULL
 */
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
+	while (*s)
 	{
 		if (*s != c)
 			s++;
