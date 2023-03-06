@@ -4,7 +4,7 @@
 *@s: it is a pointer
 *@c: it is a character
 *Description: It locates a character in a string
-*Return: NULL
+*Return: 0
 */
 char *_strchr(char *s, char c)
 {
