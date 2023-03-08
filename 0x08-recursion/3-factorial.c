@@ -19,8 +19,8 @@ int factorial(int n)
 	}
 	else
 	{
-		n--;
-		i = n * factorial(n);
+		
+		i = n * factorial(n - 1);
 	}
 	return (i);
 }
