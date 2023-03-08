@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* _puts_recursion - print a string
-*@s:string
-*Description: It prints a string, followed by a new line
+* _pow_recursion - print a string
+*@x:integer
+*@y:integer 
+*Description: it returns the value of x raised to the power of y
 *Return: 1
 */
 int _pow_recursion(int x, int y)
