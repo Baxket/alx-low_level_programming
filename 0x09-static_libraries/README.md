@@ -1,0 +1,1 @@
+This directory contains answers of som questions on Static Libraries
