@@ -3,12 +3,12 @@
 #include <string.h>
 
 /**
-  * get_op_func - returns a pointer to the function that 
-  * corresponds to the operator given as a parameter.
-  * @s: the operator passed as argument to the program
-  *
-  * Return: 0
-  */
+ * get_op_func - returns a pointer to the function that
+ * corresponds to the operator given as a parameter.
+ * @s: the operator passed as argument to the program
+ *
+ * Return: 0
+ */
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {

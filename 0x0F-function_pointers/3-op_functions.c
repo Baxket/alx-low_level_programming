@@ -18,7 +18,7 @@ int op_add(int a, int b)
   * op_sub - difference of a and b
   * @a: an integer
   * @b: an integer
-  * 
+  *
   * Return: the difference of a and b
   */
 int op_sub(int a, int b)
