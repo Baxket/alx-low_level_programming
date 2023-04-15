@@ -8,7 +8,7 @@
  */
 ssize_t _strlen(char *str)
 {
-	ssize_t x;
+	ssize_t i;
 
 	for (i = 0; str[i]; i++)
 		;
